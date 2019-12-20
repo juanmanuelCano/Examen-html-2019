@@ -1,0 +1,60 @@
+body {background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-position:right;}
+#wrapper {width: 95%;
+    margin: auto;}
+header{background-image: url("imagenes/header.jpg");
+    height:270px;
+    background-position:right;
+    background-size:cover;}
+header h1 {color: white;
+    margin-top: 0%;
+    padding-top: 93px;
+    margin-left: 4%;}
+nav {background-color: rgb(0, 147, 185);}
+
+nav ul {margin:0; 
+    padding: 0;
+    list-style-type: none;
+    text-align: left;}
+nav ul li {display: inline-block;
+    padding: 10px;}
+nav ul li a {text-decoration: none;
+    color: white;
+    font-size: 1.2em;}
+nav ul li a:hover {color:rgb(179, 83, 115);}
+
+main {background-color: rgb(192, 186, 186);
+    padding: 4%;}
+
+main h1 {margin-top: 0;
+    color:rgb(179, 83, 115);
+    text-align: center;
+    padding-bottom: 20px;}
+
+main p {text-indent: 3em;}
+
+main img {width: 18%;
+    margin: 3%;
+    box-shadow: 8px 8px 15px rgb(36, 35, 35);
+    border-radius: 15%;}
+
+footer {background-color: rgb(0, 147, 185);}
+
+footer p {color: white;
+    text-align: center;
+    padding:15px;
+    margin-top: 0;}
+
+@media screen and (max-width: 900px){
+    main img {width:38%;
+        margin:5%}
+}
+
+@media screen and (max-width: 600px){
+    main img {width:80%;
+        margin:9%}
+    nav ul li {display: block;}
+}
+
+
